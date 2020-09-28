@@ -22,7 +22,6 @@ public class PaymentController {
     @Resource
     private PaymentServiceImpl paymentService;
 
-
     @Value("${server.port}")
     private String serverPort;
 
